@@ -2,27 +2,27 @@ public class Casting{
     public static void main(String[] args){
 
         // Type Casting
-        // byte b = 127;
-        // int i = b;
+        byte b = 127;
+        int i = b;
 
-        // System.out.println(i);
+        System.out.println(i);
 
         // Explicit Casting
 
-        // double d = 35.35;
-        // double dd = 35.99;
+        double d = 35.35;
+        double dd = 35.99;
 
-        // int i = (int) d;
+        int i = (int) d;
 
-        // int ii = (int) dd;
-        // System.out.println(i);
-        // System.out.println(ii);
+        int ii = (int) dd;
+        System.out.println(i);
+        System.out.println(ii);
 
         //Implicit Casting
 
-        // int i = 35;
-        // float f = i;
-        // System.out.println("The number is: " + f);
+        int i = 35;
+        float f = i;
+        System.out.println("The number is: " + f);
 
         //Primitive vs Object types
         //Run time is high because created Sum variable as an Object instead of an Primitive
