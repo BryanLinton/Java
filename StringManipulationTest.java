@@ -16,5 +16,7 @@ public class StringManipulationTest{
         Integer e = manipulator.getIndexOrNull2(word, notSubString);
         System.out.println(d);
         System.out.println(e);
+        String word2 = manipulator.concatSubString("Hello", 1, 3, "World");
+        System.out.println(word2);
     }
 }

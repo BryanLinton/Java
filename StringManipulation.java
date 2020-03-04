@@ -14,4 +14,9 @@ public class StringManipulation{
         }
         return wordD.indexOf(substring);
     }
+    public String concatSubString(String wordE, int n1, int n2, String wordF){
+        String subString2 = wordE.substring(n1, n2);
+        return wordF.concat(subString2); 
+    }
+
 }
