@@ -18,7 +18,7 @@ public class BasicLoops{
         ShiftValues(arr);
     }
 
-     public static void OneTo255() {
+    public static void OneTo255() {
         for(int i = 1; i <= 255; i++){
             System.out.println(i);
         }
