@@ -1,0 +1,3 @@
+Used IntelliJ ide to compile SinglyLinkedList assignment so it would run properly.  
+Now Go back through the assignment and practice all test cases.  
+Also take time to understand the underlying structure of an SLL

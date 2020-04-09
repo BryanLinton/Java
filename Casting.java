@@ -30,8 +30,8 @@ public class Casting{
 
         long start = System.currentTimeMillis();
         Integer sum = 0;
-        for (int i = 0; i < Integer.MAX_VALUE; i++) {
-            sum += i;
+        for (int iii = 0; iii < Integer.MAX_VALUE; iii++) {
+            sum += iii;
         }
         System.out.println("Sum: " + sum);
         long end = System.currentTimeMillis();
