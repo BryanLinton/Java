@@ -16,13 +16,25 @@ public class Mammals {
         getEnergy();
     }
 
+    public  Mammals(int energy){
+        setEnergy(energy);
+        getEnergy();
+    }
+
     public int energyLevel(int energy){
         setEnergy(energy);
         return(getEnergy());
     }
 
     public int displayEnergy() {
-        System.out.println("Energy level is " + energy);
+
+        if(getEnergy() < 0){
+            System.out.println("The animal died from exhaustion");
+        } else 
+        {
+            System.out.println("Energy level is " + energy);
+        }
+
         return(getEnergy());
     }
 }

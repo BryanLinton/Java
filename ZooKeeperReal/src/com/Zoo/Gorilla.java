@@ -1,6 +1,6 @@
 package com.Zoo;
 
-public class Gorilla {
+public class Gorilla extends Mammals {
     Mammals gEnergy = new Mammals();
 
     public void throwSomething(){
